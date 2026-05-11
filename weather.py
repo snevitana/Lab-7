@@ -3,7 +3,7 @@ import requests
 # CONSTANTS
 GEO_URL = "http://api.openweathermap.org/geo/1.0/direct?"
 WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather?"
-API_KEY = ""  # Enter your api-key
+API_KEY = "8a86fba22567c57c5c02fd4c794fb3eb"
 
 
 def get_coords(city_name) -> dict:
